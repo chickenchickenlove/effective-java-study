@@ -35,7 +35,7 @@ public class UsageOfFunctions {
 
 
         Consumer<String> systemOutConsumerMethodReference = System.out::println;
-        Consumer<String> systemOutConsumerLambdaExpression = (message) -> System.out.println("message = " + message)
+        Consumer<String> systemOutConsumerLambdaExpression = (message) -> System.out.println("message = " + message);
 
 
         Predicate<LocalDate> isBeforePredicate = (date) -> date.isBefore(LocalDate.of(2003, 1, 1));
