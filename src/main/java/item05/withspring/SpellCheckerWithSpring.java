@@ -27,7 +27,4 @@ public class SpellCheckerWithSpring {
         // TODO : SpellChecker 코드 로직 구현
         return dictionary.closeWordsTo(typo);
     }
-
-
-
 }

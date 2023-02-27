@@ -1,12 +1,13 @@
 package item05.singleton;
 
+import item05.DefaultDictionary;
 import item05.Dictionary;
 
 import java.util.List;
 
 public class SpellChecker {
 
-    private final Dictionary dictionary = new Dictionary();
+    private final Dictionary dictionary = new DefaultDictionary();
     public static final SpellChecker spellChecker = new SpellChecker();
 
     private SpellChecker() {

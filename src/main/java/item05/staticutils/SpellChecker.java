@@ -7,6 +7,8 @@ import java.util.List;
 public class SpellChecker {
 
 //    private static final Dictionary dictionary = new Dictionary();
+
+    /*
     private static final KoreanDictionary dictionary = new KoreanDictionary();
 
     public static boolean isValid(String word) {
@@ -20,4 +22,6 @@ public class SpellChecker {
         return dictionary.closeWordsToKorean(typo);
 //        return dictionary.closeWordsTo(typo);
     }
+    
+     */
 }

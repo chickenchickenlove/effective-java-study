@@ -14,5 +14,4 @@ public class AppConfig {
     public Dictionary dictionary() {
         return new KoreanDictionary();
     }
-
 }
